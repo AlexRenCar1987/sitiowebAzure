@@ -1,8 +1,10 @@
 
 <?php
 
+$con=mysqli_init(); 
+mysqli_ssl_set($con, NULL, NULL, {ca-cert filename}, NULL, NULL); mysqli_real_connect($con, "dbarctechology.mysql.database.azure.com", "arc_technology@dbarctechology", {your_password}, {your_database}, 3306);
 
-
+/*
 $host = "localhost";
 $bd = "arc_technology";
 $usuario = "root";
@@ -21,6 +23,6 @@ try {
     echo $ex->getMessage();
 
 }
-
+*/
 ?>
 
