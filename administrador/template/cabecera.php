@@ -47,7 +47,7 @@ if(isset($_SESSION['Acceso'])=="ok"){
 
 <body>
 
-<?php $url="http://".$_SERVER['HTTP_HOST']."/sitioweb" ?>
+<?php $url="http://".$_SERVER['HTTP_HOST']."/sitiowebAzure" ?>
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
         <ul class="nav navbar-nav">
