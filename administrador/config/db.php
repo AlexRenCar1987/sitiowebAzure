@@ -7,7 +7,7 @@ mysqli_ssl_set($con, NULL, NULL, {ca-cert filename}, NULL, NULL); mysqli_real_co
 */
 
 $host = "dbarctechology.mysql.database.azure.com";
-$bd = "arc_techology";
+$bd = "arc_technology";
 $usuario = "arc_technology@dbarctechology";
 $contraseña = "Alex093020";
 
