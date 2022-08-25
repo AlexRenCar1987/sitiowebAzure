@@ -47,7 +47,7 @@ if(isset($_SESSION['Acceso'])=="ok"){
 
 <body>
 
-<?php $url="http://https://tiendayserviciosazure.azurewebsites.net" ?>
+<?php $url="http://tiendayserviciosazure.azurewebsites.net" ?>
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
         <ul class="nav navbar-nav">
